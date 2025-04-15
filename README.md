@@ -1,61 +1,69 @@
-<!DOCTYPE html><html lang="fa">
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>a_accessorii | فروشگاه اکسسوری</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>فروشگاه a_accessorii</title>
   <style>
     body {
-      margin: 0;
       font-family: sans-serif;
-      background-color: #fff;
+      margin: 0;
+      padding: 0;
+      background-color: #fff0f5;
       color: #333;
-      direction: rtl;
     }
     header {
-      background-color: #ffd6ec;
-      padding: 1rem;
+      background-color: #ffc0cb;
+      padding: 20px;
       text-align: center;
     }
     header h1 {
       margin: 0;
-      color: #d63384;
+      font-size: 24px;
+      color: #a00055;
     }
     nav {
+      background-color: #ffe4ec;
       display: flex;
-      justify-content: center;
-      gap: 1rem;
-      background: #fff0f6;
-      padding: 0.5rem;
+      justify-content: space-around;
+      padding: 10px 0;
       flex-wrap: wrap;
     }
     nav a {
-      color: #d63384;
+      color: #a00055;
       text-decoration: none;
       font-weight: bold;
     }
     .products {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      gap: 1rem;
-      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
     }
     .product {
-      border: 1px solid #eee;
-      border-radius: 12px;
-      padding: 0.5rem;
-      text-align: center;
       background-color: #fff;
-      box-shadow: 0 0 5px rgba(0,0,0,0.05);
+      margin: 15px 0;
+      padding: 15px;
+      border-radius: 10px;
+      width: 90%;
+      max-width: 400px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
     }
     .product img {
       width: 100%;
-      border-radius: 8px;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
     }
     footer {
+      background-color: #ffe4ec;
+      padding: 15px;
       text-align: center;
-      padding: 1rem;
-      background: #fff0f6;
-      color: #888;
+      margin-top: 30px;
+    }
+    a {
+      color: #a00055;
     }
   </style>
 </head>
@@ -64,6 +72,7 @@
     <h1>فروشگاه a_accessorii</h1>
     <p>اکسسوری‌های خاص برای دخترای خاص</p>
   </header>
+
   <nav>
     <a href="#">انگشتر</a>
     <a href="#">گردنبند</a>
@@ -71,16 +80,38 @@
     <a href="#">پابند</a>
     <a href="#">گوشواره</a>
   </nav>
-  <section class="products">
+
+  <div class="products">
     <div class="product">
-      <img src="https://via.placeholder.com/150" alt="محصول نمونه" />
-      <h3>نام محصول</h3>
-      <p>توضیح کوتاه محصول</p>
+      <img src="https://via.placeholder.com/400x200.png?text=انگشتر+خاص" alt="انگشتر">
+      <h3>انگشتر رزگلد</h3>
+      <p>شیک و دخترونه برای استایل روزانه</p>
     </div>
-    <!-- محصولات بیشتر اضافه کن -->
-  </section>
+    <div class="product">
+      <img src="https://via.placeholder.com/400x200.png?text=گردنبند+خاص" alt="گردنبند">
+      <h3>گردنبند قلب</h3>
+      <p>طرح قلب با زنجیر ظریف طلایی</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/400x200.png?text=دستبند+مرواریدی" alt="دستبند">
+      <h3>دستبند مرواریدی</h3>
+      <p>سبک کلاسیک و لطیف برای مهمونی‌ها</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/400x200.png?text=پابند+براق" alt="پابند">
+      <h3>پابند استیل</h3>
+      <p>پابند ضد حساسیت مناسب تابستون</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/400x200.png?text=گوشواره+فانتزی" alt="گوشواره">
+      <h3>گوشواره ستاره‌ای</h3>
+      <p>طرح ستاره با رنگ نقره‌ای ملایم</p>
+    </div>
+  </div>
+
   <footer>
-    <p>ما را در اینستاگرام دنبال کنید: <a href="https://instagram.com/a_accessorii" target="_blank">@a_accessorii</a></p>
+    ما را در اینستاگرام دنبال کنید:
+    <a href="https://instagram.com/a_accessorii" target="_blank">@a_accessorii</a>
   </footer>
 </body>
 </html>
