@@ -1,117 +1,68 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="fa">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>فروشگاه a_accessorii</title>
+  <title>a_accessorii - فروشگاه زیورآلات</title>
   <style>
     body {
+      background-color: #fff;
+      color: #444;
       font-family: sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #fff0f5;
-      color: #333;
-    }
-    header {
-      background-color: #ffc0cb;
-      padding: 20px;
+      direction: rtl;
       text-align: center;
     }
-    header h1 {
-      margin: 0;
-      font-size: 24px;
-      color: #a00055;
-    }
-    nav {
-      background-color: #ffe4ec;
-      display: flex;
-      justify-content: space-around;
-      padding: 10px 0;
-      flex-wrap: wrap;
-    }
-    nav a {
-      color: #a00055;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .products {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 20px;
+    h1 {
+      color: #e91e63;
     }
     .product {
-      background-color: #fff;
-      margin: 15px 0;
-      padding: 15px;
-      border-radius: 10px;
-      width: 90%;
-      max-width: 400px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      text-align: center;
+      border: 1px solid #eee;
+      border-radius: 15px;
+      margin: 20px;
+      padding: 10px;
+      display: inline-block;
+      width: 250px;
+      vertical-align: top;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     }
     .product img {
-      width: 100%;
-      max-height: 200px;
-      object-fit: cover;
+      max-width: 100%;
       border-radius: 10px;
     }
-    footer {
-      background-color: #ffe4ec;
-      padding: 15px;
-      text-align: center;
-      margin-top: 30px;
+    .product-title {
+      font-weight: bold;
+      margin: 10px 0 5px;
     }
-    a {
-      color: #a00055;
+    .product-price {
+      color: #e91e63;
+      font-size: 18px;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>فروشگاه a_accessorii</h1>
-    <p>اکسسوری‌های خاص برای دخترای خاص</p>
-  </header>
+  <h1>فروشگاه a_accessorii</h1>
 
-  <nav>
-    <a href="#">انگشتر</a>
-    <a href="#">گردنبند</a>
-    <a href="#">دستبند</a>
-    <a href="#">پابند</a>
-    <a href="#">گوشواره</a>
-  </nav>
-
-  <div class="products">
-    <div class="product">
-      <img src="https://via.placeholder.com/400x200.png?text=انگشتر+خاص" alt="انگشتر">
-      <h3>انگشتر رزگلد</h3>
-      <p>شیک و دخترونه برای استایل روزانه</p>
-    </div>
-    <div class="product">
-      <img src="https://via.placeholder.com/400x200.png?text=گردنبند+خاص" alt="گردنبند">
-      <h3>گردنبند قلب</h3>
-      <p>طرح قلب با زنجیر ظریف طلایی</p>
-    </div>
-    <div class="product">
-      <img src="https://via.placeholder.com/400x200.png?text=دستبند+مرواریدی" alt="دستبند">
-      <h3>دستبند مرواریدی</h3>
-      <p>سبک کلاسیک و لطیف برای مهمونی‌ها</p>
-    </div>
-    <div class="product">
-      <img src="https://via.placeholder.com/400x200.png?text=پابند+براق" alt="پابند">
-      <h3>پابند استیل</h3>
-      <p>پابند ضد حساسیت مناسب تابستون</p>
-    </div>
-    <div class="product">
-      <img src="https://via.placeholder.com/400x200.png?text=گوشواره+فانتزی" alt="گوشواره">
-      <h3>گوشواره ستاره‌ای</h3>
-      <p>طرح ستاره با رنگ نقره‌ای ملایم</p>
-    </div>
+  <div class="product">
+    <img src="whale.jpg" alt="گردنبند نهنگ">
+    <div class="product-title">گردنبند نهنگ آبی</div>
+    <div class="product-price">۲۲۰ هزار تومان</div>
   </div>
 
-  <footer>
-    ما را در اینستاگرام دنبال کنید:
-    <a href="https://instagram.com/a_accessorii" target="_blank">@a_accessorii</a>
-  </footer>
+  <div class="product">
+    <img src="bow-earrings.jpg" alt="گوشواره پاپیونی">
+    <div class="product-title">گوشواره پاپیونی طلایی</div>
+    <div class="product-price">۲۲۰ هزار تومان</div>
+  </div>
+
+  <div class="product">
+    <img src="star-necklace.jpg" alt="گردنبند ستاره‌ای">
+    <div class="product-title">گردنبند ستاره‌ای نگین‌دار</div>
+    <div class="product-price">۲۲۰ هزار تومان</div>
+  </div>
+
+  <div class="product">
+    <img src="heart-ring.jpg" alt="گردنبند قلب و انگشتر">
+    <div class="product-title">ست قلب مشکی و حلقه نقره‌ای</div>
+    <div class="product-price">۲۲۰ هزار تومان</div>
+  </div>
 </body>
 </html>
